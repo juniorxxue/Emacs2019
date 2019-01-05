@@ -27,6 +27,7 @@
 ;; display line number
 (global-display-line-numbers-mode)
 
-(load "/Users/xuexu/Desktop/Scheme/doom-xcode-dark-theme.el")
+(require 'pixel-scroll)
+(pixel-scroll-mode 1)
 
 (provide 'init-local)

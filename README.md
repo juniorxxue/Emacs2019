@@ -1,6 +1,6 @@
 # Copy from purcell's emacs.d
 
-**changed: **
+**changed:**
 
 * lisp/init-elpa.el
 * lisp/init-local.el
