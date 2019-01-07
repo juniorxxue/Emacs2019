@@ -116,7 +116,7 @@
 (require 'init-clojure)
 (require 'init-clojure-cider)
 (require 'init-common-lisp)
-
+(require 'init-racket)
 (when *spell-check-support-enabled*
   (require 'init-spelling))
 
