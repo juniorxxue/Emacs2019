@@ -25,7 +25,7 @@
 (global-hl-line-mode 1)
 
 ;; display line number
-(global-display-line-numbers-mode)
+;; (global-display-line-numbers-mode)
 
 (require 'pixel-scroll)
 (pixel-scroll-mode 1)
