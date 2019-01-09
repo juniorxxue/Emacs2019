@@ -1,7 +1,9 @@
-# Copy from purcell's emacs.d
+## Build upon the base of purcell/emacs.d
 
-**changed:**
+Changelog:
 
-* lisp/init-elpa.el
-* lisp/init-local.el
+1. mirror -> emacs-china.org
+2. doom themes and modeline
+3. init-racket.el for racket usage
+4. init-kaomoji.el for counsel-kaomoji input
 
