@@ -3,8 +3,15 @@
   (add-hook hook 'turn-on-elisp-slime-nav-mode))
 (add-hook 'emacs-lisp-mode-hook (lambda () (setq mode-name "ELisp")))
 
+(defun scratch-user-first-name ()
+  (let ((name (if (string= (user-full-name) "")
+                  (user-login-name)
+                (user-full-name))))
+    (string-match "^[^ ]*" name)
+    (capitalize (match-string 0 name))))
+
 (setq-default initial-scratch-message
-              (concat ";; Happy hacking, " user-login-name " - Emacs ♥ you!\n\n"))
+              (concat ";; Happy hacking, " (scratch-user-first-name)  " - Emacs ♥ you!\n\n"))
 
 
 

@@ -9,4 +9,6 @@
   (setq-default exec-path-from-shell-arguments nil)
   (exec-path-from-shell-initialize))
 
+(add-to-list 'exec-path "/usr/local/bin/")
+
 (provide 'init-exec-path)

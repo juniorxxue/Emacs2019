@@ -170,6 +170,7 @@
 ;;----------------------------------------------------------------------------
 ;; Allow users to provide an optional "init-local" containing personal settings
 ;;----------------------------------------------------------------------------
+(require 'init-kaomoji)
 (require 'init-local nil t)
 
 

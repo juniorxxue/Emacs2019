@@ -15,5 +15,4 @@
   (maybe-require-package 'deadgrep)
   (global-set-key (kbd "M-?") 'rg-project))
 
-
 (provide 'init-grep)
