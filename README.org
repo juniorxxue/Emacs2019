@@ -1,0 +1,2 @@
+* emacs.d for personal usage
+[[file:emacs-batman.jpg]]
