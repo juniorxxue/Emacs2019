@@ -1,5 +1,6 @@
 (require-package 'doom-themes)
-(load-theme 'doom-tomorrow-night t)
+;; (load-theme 'doom-tomorrow-night t)
+(load-theme 'doom-dracula t)
 
 (when (maybe-require-package 'dimmer)
   (setq-default dimmer-fraction 0.15)
