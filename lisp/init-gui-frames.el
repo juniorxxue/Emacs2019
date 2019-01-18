@@ -93,4 +93,7 @@
 (require-package 'disable-mouse)
 
 
+;; titlebar
+(setq-default frame-title-format '(""))
+
 (provide 'init-gui-frames)
