@@ -13,8 +13,8 @@
   (define-key dired-mode-map [mouse-2] 'dired-find-file)
   (define-key dired-mode-map (kbd "C-c C-p") 'wdired-change-to-wdired-mode))
 
-(when (maybe-require-package 'diff-hl)
-  (after-load 'dired
-    (add-hook 'dired-mode-hook 'diff-hl-dired-mode)))
+
+(require-package 'all-the-icons-dired)
+(add-hook 'dired-mode-hook 'all-the-icons-dired-mode)
 
 (provide 'init-dired)

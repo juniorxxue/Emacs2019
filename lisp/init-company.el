@@ -39,6 +39,10 @@
     (add-hook 'company-completion-started-hook 'sanityinc/page-break-lines-disable)
     (add-hook 'company-after-completion-hook 'sanityinc/page-break-lines-maybe-reenable)))
 
+;; (require-package 'company-box)
+; (add-hook 'company-mode-hook 'company-box-mode)
+;; (require-package 'company-posframe)
+;; (company-posframe-mode 1)
 
 
 (provide 'init-company)

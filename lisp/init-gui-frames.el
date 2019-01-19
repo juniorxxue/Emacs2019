@@ -96,4 +96,7 @@
 ;; titlebar
 (setq-default frame-title-format '(""))
 
+;; fringe
+(fringe-mode '(12 . 12))
+
 (provide 'init-gui-frames)
