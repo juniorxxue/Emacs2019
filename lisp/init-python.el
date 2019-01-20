@@ -1,3 +1,6 @@
+;;; Be sure to install
+;; setuptools
+;; autopep8
 (setq auto-mode-alist
       (append '(("SConstruct\\'" . python-mode)
                 ("SConscript\\'" . python-mode))

@@ -9,4 +9,7 @@
 ;; instead of
 ;; export PATH=/usr/local/bin:$PATH (WRONG!!!)
 
+;; I use fish shell
+(add-to-list 'exec-path "/Users/shawn/.pyenv/shims")
+
 (provide 'init-exec-path)
