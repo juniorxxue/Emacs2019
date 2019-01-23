@@ -1,3 +1,4 @@
+.lsp-session*
 .DS_Store
 /url/cache
 /.emacs.desktop
