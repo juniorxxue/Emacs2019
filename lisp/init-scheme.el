@@ -1,8 +1,9 @@
-(set-variable (quote scheme-program-name) "scheme")
+(set-variable (quote scheme-program-name) "chez")
 
 
-;; (load-file "/Users/xuexu/.emacs.d/site-lisp/geiser/elisp/geiser.el")
+(setq geiser-active-implementations '(chez))
 
-;; (setq geiser-active-implementations '(chez))
+(require-package 'geiser)
+(setq geiser-chez-binary "/usr/local/bin/chez")
 
 (provide 'init-scheme)

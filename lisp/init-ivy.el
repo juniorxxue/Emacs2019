@@ -80,4 +80,10 @@ instead."
   (setq xref-show-xrefs-function 'ivy-xref-show-xrefs))
 
 
+
+
+;; (when (maybe-require-package 'all-the-icons-ivy)
+;; (all-the-icons-ivy-setup))
+
+
 (provide 'init-ivy)
