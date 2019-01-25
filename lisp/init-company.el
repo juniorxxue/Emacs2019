@@ -22,8 +22,10 @@
   (when (maybe-require-package 'company-quickhelp)
     (add-hook 'after-init-hook 'company-quickhelp-mode)))
 
+
 ;; Suspend page-break-lines-mode while company menu is active
 ;; (see https://github.com/company-mode/company-mode/issues/416)
+
 (after-load 'company
   (after-load 'page-break-lines
     (defvar-local sanityinc/page-break-lines-on-p nil)
@@ -38,6 +40,8 @@
 
     (add-hook 'company-completion-started-hook 'sanityinc/page-break-lines-disable)
     (add-hook 'company-after-completion-hook 'sanityinc/page-break-lines-maybe-reenable)))
+
+
 
 ;; (require-package 'company-box)
 ;; (require 'company-box)
