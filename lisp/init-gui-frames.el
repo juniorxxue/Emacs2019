@@ -86,7 +86,7 @@
 (require-package 'default-text-scale)
 (add-hook 'after-init-hook 'default-text-scale-mode)
 
-(set-frame-font "Source Code Pro 15" nil t)
+(set-frame-font "Fira Code 15" nil t)
 
 
 
