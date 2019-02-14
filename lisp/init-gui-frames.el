@@ -88,7 +88,8 @@
 
 ;; (set-frame-font "Fira Code 15" nil t)
 ;; (set-frame-font "Ubuntu 15" nil t)
-(set-frame-font "Source Code Pro 15" nil t)
+;; (set-frame-font "Source Code Pro 15" nil t)
+(set-frame-font "Operator Mono 16" nil t)
 
 
 
