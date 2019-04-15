@@ -84,7 +84,6 @@ Call a second time to restore the original window configuration."
 (global-set-key (kbd "<f7>") 'sanityinc/split-window)
 
 
-
 (defun sanityinc/toggle-current-window-dedication ()
   "Toggle whether the current window is dedicated to its current buffer."
   (interactive)
@@ -98,9 +97,17 @@ Call a second time to restore the original window configuration."
 (global-set-key (kbd "C-c <down>") 'sanityinc/toggle-current-window-dedication)
 
 
-
 (unless (memq window-system '(nt w32))
   (windmove-default-keybindings 'control))
+
+(require-package 'zoom)
+
+(require 'zoom)
+(zoom-mode t)
+
+
+
+
 
 
 (provide 'init-windows)

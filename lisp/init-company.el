@@ -88,4 +88,8 @@
 ;;         (25 . fa_arrows)) ;; TypeParameter
 ;; )
 
+;; (require 'company-tabnine)
+;; (add-to-list 'company-backends #'company-tabnine)
+
+
 (provide 'init-company)
